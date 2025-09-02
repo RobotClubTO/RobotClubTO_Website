@@ -8,8 +8,14 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Robot Club TO Logo" id="club-logo"> <!-- Assuming logo is still desired -->
+        <img src="logo.png" alt="Robot Club TO Logo" id="club-logo">
         <h1>Robot Club TO - Membership Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guidelines.html">Guidelines</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -49,14 +55,14 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Acknowledgement of Risks & Waiver of Liability</legend>
+                    <legend>Member Guidelines & Agreement</legend>
                     <div class="legal-text">
-                        <p>Acknowledgement of Risks and Waiver of Liability: By applying for membership, you acknowledge that activities involving robotics can be inherently dangerous and involve risks of injury or damage. You agree to assume all risks associated with your participation in Robot Club TO activities and to waive any claims against Robot Club TO, its organizers, and members for any injuries or damages that may occur. You are responsible for your own safety and agree to follow all safety guidelines. </p>
+                        <p>By applying, you confirm you have read and agree to our <a href="guidelines.html" target="_blank" rel="noopener noreferrer">Member Guidelines & Code of Conduct</a>. This document includes our core values, safety policies, and the waiver of liability. Please read it carefully before proceeding.</p>
                     </div>
                     <div>
                         <label>
                             <input type="checkbox" name="liabilityWaiver" value="agreed" required>
-                            I have read, understood, and agree to the Acknowledgement of Risks & Waiver of Liability.
+                            I have read, understood, and agree to the Member Guidelines & Code of Conduct.
                         </label>
                     </div>
                 </fieldset>
@@ -100,6 +106,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <!-- script.js linked for potential future client-side validation -->
 </body>
 </html>
